@@ -20,15 +20,14 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
+    <script src="js/services.js"></script>
+      <script src="js/controllers.js"></script>
+      <script src="js/openfb-angular.js"></script>
+      <script type="text/javascript"
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeLzjWfDaqBze8j7qKJL17XH4ZsMjsTx0&sensor=true">
+      </script>
   </head>
-  <body ng-app="starter">
-
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
-      </ion-header-bar>
-      <ion-content>
-      </ion-content>
-    </ion-pane>
+  <body ng-app="starter" >
+      <ion-nav-view id="main"></ion-nav-view>
   </body>
 </html>
